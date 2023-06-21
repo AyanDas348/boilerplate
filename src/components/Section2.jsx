@@ -1,9 +1,11 @@
-import React from 'react'
+import { styles } from "../styles" 
 
-function section2() {
+const Section2 = () => {
   return (
-    <div>section2</div>
+    <>
+      <h2 className={`${styles.padding} ${styles.sectionHeadText} max-w-7xl mx-auto relative z-0`}>Section 2</h2>
+    </>
   )
 }
 
-export default section2
+export default Section2

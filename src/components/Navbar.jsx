@@ -40,9 +40,9 @@ const Navbar = () => {
             window.scrollTo(0, 0);
           }}
         >
-          <img src={menu} alt='logo' className='w-9 h-9 object-contain' />
+          <img alt='logo' className='w-9 h-9 object-contain' />
           <p className='text-white text-[18px] font-bold cursor-pointer flex '>
-            Ayan Das &nbsp;
+            Company Name &nbsp;
           </p>
         </Link>
 
